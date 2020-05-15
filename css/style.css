@@ -34,12 +34,14 @@ img {
   margin: 0;
 }
 /* header */
-
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 .container {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -78,7 +80,7 @@ img {
 .nav .link:focus,
 .nav .link.curent {
   color: var(--accent-color);
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 4px solid var(--accent-color);
   border-radius: 2px;
 }
 .contacts:hover,
@@ -349,6 +351,11 @@ address .link {
   margin-top: 93px;
   margin-bottom: 94px;
 }
+.filter-nav {
+  margin-bottom: 50px;
+
+  text-align: center;
+}
 .portfolio-filter {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
@@ -363,7 +370,29 @@ address .link {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
+.portfolio.list img {
+  padding-bottom: 20px;
+}
+.portfolio.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio.list .item {
+  width: 380px;
+  margin-bottom: 30px;
+}
+.portfolio.list .item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.portfolio.list .link {
+  display: block;
+}
 .portfolio-title {
+  margin: 0;
+  padding: 0 24px 4px;
+
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -371,12 +400,16 @@ address .link {
   letter-spacing: 0.06em;
 }
 .portfolio-subtitle {
+  margin: 0;
+  padding: 0 24px 20px;
+
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
 .portfolio-text {
+  display: none;
   background-color: var(--accent-color);
   color: var(--white-color);
   font-weight: 400;
