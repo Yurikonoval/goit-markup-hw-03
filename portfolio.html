@@ -16,35 +16,37 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo link"
-          >Web <span class="logo-header">Studio</span></a
-        >
-        <ul class="nav">
-          <li class="item">
-            <a class="link" href="./index.html">Студия</a>
-          </li>
-          <li class="item">
-            <a class="link curent" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="item"><a class="link" href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <ul>
-        <li class="item">
-          <a class="contacts link" href="mailto:info@devstudio.com"
-            >info@devstudio.com
-          </a>
-        </li>
-        <li class="item">
-          <a class="contacts link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
+    <header class="page-header">
+      <div class="container header">
+        <nav class="main-nav">
+          <a href="./index.html" class="logo link"
+            >Web <span class="logo-header">Studio</span></a
           >
-        </li>
-      </ul>
+          <ul class="nav list">
+            <li class="item">
+              <a class="link" href="./index.html">Студия</a>
+            </li>
+            <li class="item">
+              <a class="link curent" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item"><a class="link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="header-contacts list">
+          <li class="item">
+            <a class="contacts link" href="mailto:info@devstudio.com"
+              >info@devstudio.com
+            </a>
+          </li>
+          <li class="item">
+            <a class="contacts link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
-    <main>
+    <main class="container portfolio">
       <section>
         <h1 class="section-title hidden">Портфолио</h1>
 
@@ -213,42 +215,49 @@
     </main>
     <!-- footer -->
     <footer>
-      <div>
-        <a href="./index.html" class="logo link"
-          >Web <span class="logo-footer">Studio</span></a
-        >
-        <address class="phisical">
-          г. Киев, пр-т Леси Украинки, 26
-        </address>
-        <address>
-          <a class="link" href="mailto:info@example.com">info@example.com</a>
-          <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
+      <div class="container footer">
+        <div class="main-address">
+          <a href="./index.html" class="logo link"
+            >Web <span class="logo-footer">Studio</span></a
+          >
+          <address class="phisical">
+            г. Киев, пр-т Леси Украинки, 26
+          </address>
+          <address>
+            <a class="link" href="mailto:info@example.com">info@example.com</a>
+            <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </address>
+        </div>
+        <div>
+          <b class="footer-title">присоединяйтесь</b>
+          <ul class="list">
+            <li class="item">
+              <a class="link" href="" aria-label="ссылка на Instagram"
+                >Instagram</a
+              >
+            </li>
+            <li class="item">
+              <a class="link" href="" aria-label="ссылка на Twitter">Twitter</a>
+            </li>
+            <li class="item">
+              <a class="link" href="" aria-label="ссылка на Facebook"
+                >Facebook</a
+              >
+            </li>
+            <li class="item">
+              <a class="link" href="" aria-label="ссылка на LinkedIn"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe">
+          <b class="footer-title">Подпишитесь на рассылку</b>
+        </div>
       </div>
-      <div>
-        <b class="footer-title">присоединяйтесь</b>
-        <ul>
-          <li class="item">
-            <a class="link" href="" aria-label="ссылка на Instagram"
-              >Instagram</a
-            >
-          </li>
-          <li class="item">
-            <a class="link" href="" aria-label="ссылка на Twitter">Twitter</a>
-          </li>
-          <li class="item">
-            <a class="link" href="" aria-label="ссылка на Facebook">Facebook</a>
-          </li>
-          <li class="item">
-            <a class="link" href="" aria-label="ссылка на LinkedIn">LinkedIn</a>
-          </li>
-        </ul>
+      <div class="container">
+        <p class="developed-by">2020 | Developed by GoIT Students</p>
       </div>
-      <div>
-        <b class="footer-title">Подпишитесь на рассылку</b>
-      </div>
-
-      <p class="developed-by">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
