@@ -111,8 +111,6 @@ img {
 
 /* hero */
 .hero {
-  margin-bottom: 94px;
-
   text-align: center;
 }
 .hero-container {
@@ -149,11 +147,12 @@ img {
   text-align: center;
 }
 /* our advantages */
+.section.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .section-title.hidden {
   display: none;
-}
-.container.advantages {
-  margin-bottom: 94px;
 }
 .advantages .item {
   width: 278px;
@@ -181,8 +180,8 @@ img {
   line-height: 1.71;
 }
 /* What we are doing */
-.doing-section .container {
-  margin-bottom: 94px;
+.doing-section {
+  padding-bottom: 94px;
 }
 .section-title {
   margin-top: 0;
@@ -211,9 +210,6 @@ img {
   text-align: center;
   text-transform: uppercase;
 }
-.we-are-doing img {
-  margin-bottom: -70px;
-}
 .we-are-doing .item {
   width: 382px;
   border: 1px solid transparent;
@@ -231,39 +227,37 @@ img {
   display: flex;
   justify-content: space-between;
 }
-
+.our-team .photo {
+  margin-bottom: 30px;
+}
 .our-team .title {
-  margin: 0;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  background-color: var(--white-color);
 }
 
 .our-team .text {
-  margin: 0;
-  padding-bottom: 16px;
+  margin-top: 0;
+  margin-bottom: 16px;
 
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  background-color: var(--white-color);
 }
-.our-team .item {
+.our-team > .item {
+  padding-bottom: 24px;
   width: 280px;
   border: 1px solid transparent;
   border-radius: 4px;
 }
 .social-network {
   display: flex;
-  background-color: var(--white-color);
-  padding-bottom: 24px;
 }
 .social-network .link {
   display: block;
@@ -292,6 +286,7 @@ img {
 /* footer */
 footer {
   background-color: var(--footer-background);
+  padding-bottom: 21px;
 }
 .container.footer {
   display: flex;
@@ -341,11 +336,9 @@ address .link {
 .subscribe {
   margin-left: auto;
 }
-.container > .developed-by {
-  margin-bottom: 21px;
-}
 .developed-by {
   margin-top: 0;
+  margin-bottom: 0;
 
   font-weight: 400;
   font-size: 12px;
