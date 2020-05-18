@@ -347,9 +347,9 @@ address .link {
   color: rgba(255, 255, 255, 0.4);
 }
 /* portfolio main */
-.container.portfolio {
-  margin-top: 93px;
-  margin-bottom: 94px;
+.main {
+  padding-top: 93px;
+  padding-bottom: 94px;
 }
 .filter-nav {
   margin-bottom: 50px;
@@ -371,7 +371,7 @@ address .link {
   background-color: var(--accent-color);
 }
 .portfolio.list img {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .portfolio.list {
   display: flex;
@@ -393,8 +393,7 @@ address .link {
   display: block;
 }
 .portfolio-title {
-  margin: 0;
-  padding: 0 24px 4px;
+  margin: 0 24px 4px;
 
   color: var(--primary-text-color);
   font-weight: 700;
@@ -403,8 +402,7 @@ address .link {
   letter-spacing: 0.06em;
 }
 .portfolio-subtitle {
-  margin: 0;
-  padding: 0 24px 20px;
+  margin: 0 24px 20px;
 
   color: var(--secondary-text-color);
   font-weight: 400;
